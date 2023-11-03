@@ -1,0 +1,26 @@
+---
+openapi: 3.0.3
+info:
+  title: openapitestrepo
+  version: 1.0.0
+servers: []
+paths:
+  "/json_response":
+    get:
+      summary: json_response
+      tags:
+      - Example
+      responses:
+        '200':
+          description: returns a 200 status code for the API endpoint
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  null_value:
+                    nullable: true
+                required:
+                - null_value
+              example:
+                null_value:

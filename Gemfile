@@ -46,3 +46,6 @@ group :development do
   # gem "spring"
 end
 
+
+gem "rspec-openapi", "~> 0.9.0"
+gem "rspec-rails"
